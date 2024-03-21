@@ -1,7 +1,7 @@
 # Feature 1: Filter Events By City
-"As a user,
-I should be able to filter events by city
-So that I can see a list of events taking place in that city."
+"As a user,<br>
+I should be able to filter events by city<br>
+So that I can see a list of events taking place in that city."<br>
 
 ### gherkin
 Feature: Filter Events By City
