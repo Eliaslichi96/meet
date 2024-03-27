@@ -75,6 +75,9 @@ Scenario: User views charts visualizing event details<br>
     Then the app should display charts illustrating relevant event data<br>
 
 
+### Serverless Functions
+In this project, I'll use serverless functions to do the heavy lifting of fetching upcoming events from the Google Calendar API. <br> 
+These functions will be like little helpers that work on-demand, scaling up or down as needed, so I don't have to worry about managing servers or infrastructure. This not only makes things easier for me but also ensures the app runs smoothly, saves on costs, and stays available for users whenever they need it.
 
 
 
