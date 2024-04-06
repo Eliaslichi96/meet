@@ -1,4 +1,3 @@
-
 import '@testing-library/jest-dom';
 
 // Here, add portions of the warning messages you want to intentionally prevent from appearing
