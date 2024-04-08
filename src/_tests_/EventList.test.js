@@ -20,6 +20,7 @@ describe('<EventList /> component', () => {
     });
 });
 
+//  integration testing
 describe('<EventList /> integration', () => {
     test('renders a non-empty list of events when the app is mounted and rendered', async () => {
         const AppComponent = render(<App />);
