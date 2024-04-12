@@ -1,12 +1,20 @@
 import { useState } from "react";
 
-const NumberOfEvents = ({ setCurrentNOE }) => {
+const NumberOfEvents = ({ setCurrentNOE, setErrorAlert }) => {
     const [number, setNumber] = useState('32'); // before eventNumber
 
     const handleInputChanged = (event) => {
         const value = event.target.value;
+        // Alerts
+        let errorText;
+        if (value <= 0) {
+            errorText = "Only numbers higher than 0 allowed."
+        } else {
+            errorText = ""
+        }
         setNumber(value);
         setCurrentNOE(value);
+        setErrorAlert(errorText);
     }
 
     return (
